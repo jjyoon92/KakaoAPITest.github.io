@@ -1,5 +1,5 @@
 
-Kakao.init('823e6296f29c70cb7913c86a770bdcfb')
+Kakao.init('2ee73badb2e760134a32f7f85fa587c5')
 console.log("Kakao",Kakao)
 console.log("isInitialized",Kakao.isInitialized())
 
