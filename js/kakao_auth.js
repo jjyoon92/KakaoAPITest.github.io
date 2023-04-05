@@ -9,7 +9,7 @@ console.log("getAccessToken",Kakao.Auth.getAccessToken());
 const kakaoLogin = ()=>{
     if(Kakao.Auth.getAccessToken())
     {
-        location.href="/main.html";
+        location.href="main.html";
         return ;
     }
 
@@ -18,7 +18,7 @@ const kakaoLogin = ()=>{
 
         success : function(response){
             console.log("kakaoLogin_Success",response);
-            location.href='/main.html';
+            location.href='main.html';
         },
         fail : function(error){
             console.log("kakaoLogin_error",error);
