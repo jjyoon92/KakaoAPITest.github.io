@@ -1,8 +1,6 @@
-
 Kakao.init('2ee73badb2e760134a32f7f85fa587c5')
 console.log("Kakao",Kakao)
 console.log("isInitialized",Kakao.isInitialized())
-
 console.log("getAccessToken",Kakao.Auth.getAccessToken());
 
 //로그인창 활성화 + 인증 이후 accessToken발급&등록
